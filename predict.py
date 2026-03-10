@@ -1,7 +1,7 @@
 from test import classify_headline
 
 # Ucitaj naslove iz fajla (ignorisi komentare i prazne linije)
-with open("sample_headlines.txt", "r", encoding="utf-8") as f:
+with open("data/sample_headlines.txt", "r", encoding="utf-8") as f:
     headlines = [
         line.strip()
         for line in f
